@@ -13,7 +13,7 @@ const Info1 = () => {
     const { control, handleSubmit } = useForm();
 
     const onSubmitSignIn = async (e) => {
-        console.log(e.currentTarget)
+        console.log(e)
         setData({
             ...data,
             e

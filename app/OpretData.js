@@ -6,7 +6,7 @@ const AppContext = createContext();
 export const OpretData = ({ children }) => {
     const [data, setData] = useState({
         fornavn: "",
-        fisse: "",
+        ostepops: "",
     });
     const value = {
         data,

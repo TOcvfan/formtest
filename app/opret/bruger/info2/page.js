@@ -34,11 +34,11 @@ const Info2 = () => {
                 }}>
                     <Controller
                         control={control}
-                        name="fisse"
-                        defaultValue={data.fisse}
+                        name="ostepops"
+                        defaultValue={data.ostepops}
                         render={({ field: { onChange } }) =>
                             <Text
-                                label='fisse'
+                                label='ostepops'
                                 onChange={onChange}
                                 type="text"
                             />
