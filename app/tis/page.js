@@ -11,9 +11,6 @@ export default function Page() {
       <Button type="button" onClick={() => router.push('/opret/bruger/info1')}>
         Bruger
       </Button>
-      <Button type="button" onClick={() => router.push('/tis')}>
-        Tis
-      </Button>
     </Box>
   )
 }
